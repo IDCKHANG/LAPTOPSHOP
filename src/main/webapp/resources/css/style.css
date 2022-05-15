@@ -1,0 +1,676 @@
+
+.header{
+    margin: 0 auto;
+    width: 89%;
+}
+.banner{
+    width: 100%;
+    height: 200px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin:0 auto;
+}.ic-home{
+    margin-left: 60px;
+    margin-top: 2px;
+}
+.icon-home{
+    width: 80px;
+    height: 80px;
+
+}
+
+.icon-cart{
+    width: 70px;
+    height: 70px;
+
+}
+
+.row img:hover{
+    transform: scale(1.1);
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    display: inline-flex;
+    height: 20px;
+
+
+}
+.menu li{
+    width: 160px;
+    height: 8px;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 30px;
+    height: 30px;
+    color: #00CBFF;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.menu a:hover{
+    color: #FF3600;
+}
+.ic-home img:hover{
+    transform: scale(1.1);
+}
+
+.img-prd{
+    width: 250px;
+    height: 160px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.container{
+    width: 83%;
+    margin:0 auto;
+}
+.line-prd{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-center{
+    text-align: center;
+    height: 170px;
+}
+.giamgia{
+    background:linear-gradient(
+        -90deg,#ec1f1f 0%,
+        #ff9c00 100%);
+    border-radius: 10px;
+    padding:1px 7px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 16px;
+    float: left;
+    margin-left: 20px;
+    color:#fff;
+}
+.infor{
+    margin:10px;
+}
+.infor a{
+    color:#0055A8;
+    font-family: Arial;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+.giacu{
+    margin-left: 30px;
+    font-size: 15px;
+    vertical-align: middle;
+    text-decoration: line-through;
+}
+.price strong{
+    color: red;
+    font-size: 17px;
+    margin-left: 20px;
+}
+table{
+    border-collapse:collapse;
+
+}
+.phieutang{
+    display: flex;
+    flex-direction: row;
+
+}
+.phieutang p{
+    font-size: 14px;
+    margin-left: 10px;
+
+}
+.img-phieutang{
+    padding-top: 10px;
+}
+.height-infor{
+    margin:20px;
+    color: #666;
+}
+.height-prd{
+    border-bottom: 1px dashed #91B0BF;
+    height:340px;
+    margin:20px;
+}
+
+.border-line{
+    border: 0.1px solid #81C3CF;
+    margin:0;
+    padding: 0;
+}
+.button-mua{
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.button-mua form{
+    text-align: center;
+    margin: 0 auto;
+}
+.bt-mua{
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+    color: #FF2700;
+    font-size: 16px;
+    background: #fff;
+    border: 1px solid #FF4700;
+    border-radius: 2px;
+}
+
+.bt-muatragop{
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #0067ff;
+    background: #fff;
+    border: 1px solid #0067ff;
+    border-radius: 2px;
+}
+.bt-mua:hover{
+    background: #fffa51;
+    color: #1500ff;
+}
+.bt-muatragop:hover {
+    background: #a8ffff;
+    color: red;
+}
+
+.infor a:hover{
+    cursor: pointer;
+    color: #FF2700;
+}
+.img-center:hover{
+    cursor: pointer;
+    lighting-color: red;
+}
+
+.ftcenter{
+    display: flex;
+    justify-content: center;
+    background-color: #b5abab;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.note{
+    margin-right:  211px;
+    font-size: 14px;
+}
+.note a{
+    font-size: 14px;
+}
+.coppyright{
+    font-size: 14px;
+}
+
+.img-phieutang{
+    width: 50px;
+    height: 35px;
+}
+.ad-height{
+    width:100%;
+    height: 110px;
+    margin: 0;
+    padding: 0;
+
+}
+.background{
+    background-image:url('../image/bgr.jpg');
+    height: 100%;
+    width: 100%;
+}
+.hello{    
+    color: #1500FF;
+    font-size: 30px;
+    margin: 0 auto;
+}
+.ad-width-left {
+    border:1px solid red;
+    margin-top:10px;
+    background-image:url('../image/bgr.jpg');
+    width: 260px;
+
+
+}
+.ad-width-left li{
+    list-style-type: none;
+    margin:0 auto;
+    line-height: 50px;
+}
+.ad-width-left a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #2D427B;
+
+
+}
+.ad-width-left a:hover{
+    border-bottom:1px solid #FF000B;
+    color: #FF3600;
+}
+
+.ad-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.ad-menu-top{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.ad-menu-top a{
+    text-decoration: none;
+}
+.ad-width-mid{
+
+    margin-top: 10px;
+    border:1px solid red;
+    width: 100%;
+    height: 300px;
+    height: 100%;
+}
+.ad-table-hoadon{
+    margin: 0 auto;
+
+
+}
+.th{
+    font-weight: bold;
+}
+
+.ad-table-sanpham{
+    margin: 0 auto;
+}
+.ad-infor{
+    margin: 0 auto;
+    border:1px solid red;
+    text-align: center;
+
+}
+.ad-button{
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+    color: #0067ff;
+    background: #fff;
+    border-radius: 2px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+
+.ad-button:hover {
+    background: #a8ffff;
+    color: red;
+
+}
+.ad-2table{
+    display: flex;
+    flex-direction: row;
+}
+.ad-table-user{
+    margin-right: 70px;
+}
+.free{
+    width: 60px;
+    height: 50px;
+    margin: 8px 15px 20px 40px;
+}
+.line-1{
+    display: flex;
+    flex-direction: row;
+
+}
+.inf-laptop{
+    width: 400px;
+}
+.bot-free{
+
+    border:1px solid activecaption;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.box-inf{
+    width: 340px;
+}
+.box-inf1{
+    border: 1px solid #81C3CF;
+    margin: 20px;
+    text-decoration: none;
+
+}
+.box-inf1 a{
+    text-decoration: none;
+    height: 30px;
+    font-size: 18px;
+    margin: 5px;
+
+
+}
+.width-imgage-laptop{
+    width: 600px;
+    text-align: center;
+    margin-top: 50px;
+}
+.inf-price{
+    margin-left: 30px;
+    color: red;
+    font-size: 20px;
+}
+.inf-formatleft{
+    margin-left: 30px;
+}
+.inf-formatflex{
+    display: flex;
+    flex-direction:row;
+}
+.inf-random{
+    margin: 10px 15px 20px 40px;
+    color: #2D427B;
+    font-family: Arial;
+    font-size: 14px;
+}
+.inf-formatflex h4{
+    color: #333;
+    font-family: Arial;
+    font-size: 13px;
+}
+.muangay{
+
+    margin: 0 auto;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    width: 320px;
+    height: 65px;
+    cursor: pointer;
+    color: #FF2700;	
+    background: #fff;
+    border: 1px solid #FF4700;
+    border-radius: 2px;
+    text-decoration: none;
+    background: #fffa51;
+}
+.muangay span {
+    margin-top: 5px;
+    display: block;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: none;
+    padding-top: 3px;
+}
+
+.muangay b {
+    margin-top: 10px;
+}
+
+.muangay :hover {
+    font-weight: bold;
+    margin-top: 7px;
+
+}
+
+.bt-muangay{
+    text-align: center;
+}
+.tableparameter{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.tableparameter h2{
+    text-align: center;
+}
+.tableparameter li{
+    list-style-type: none;
+}
+
+.tableparameter table{
+    width: 70%;
+    margin: 0 auto;
+}
+.xemchitiet{       
+    margin: 0 auto;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    width: 320px;
+    height: 65px;
+    cursor: pointer;
+    color: #FF2700;	   
+    border: 1px solid #FF4700;
+    text-decoration: none;
+    background: #a8ffff;
+}
+.xemchitiet a{
+    text-decoration: none;
+    margin-top: 20px;
+}
+.xemchitiet :hover{
+    background: #a8ffff;
+    color: red;
+}
+.inf-lable{
+    font-weight: bold;
+}
+.thongbao{
+
+    text-align: center;
+    color: #0067ff;
+}
+.th-ed{
+    float: left;
+    font-weight: bold;
+    color: #2D427B;
+}
+.ad-table-edit{
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+}
+.ad-button-ed {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #0067ff;
+    background: #fff;
+    border: 1px solid #0067ff;
+    border-radius: 2px;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+
+.ad-button-ed:hover {
+    background: #a8ffff;
+    color: red;
+
+}
+.h_banner{
+    padding-bottom: 50px;
+    border: 1px solid red;
+    height: 100px;
+
+}
+.fm-login{
+    padding-top: 50px;
+}
+.test{
+    color: red;
+}
+.img-cart{
+    width: 130px;
+    height: 110px;
+}
+.pdp-mod-review .mod-rating {
+    padding: 20px 24px;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+}
+.login form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.login button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+.login{
+    width: 500px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+a, button {
+    cursor: pointer;
+}
+a, body {
+    color: #32323d;
+}
+a, a:hover {
+    text-decoration: none;
+}
+.ic-like:before {
+    content: "\59";
+}
+[class^="ic-"]:before, [class*=" ic-"]:before {
+    font-family: "mp3-zing" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.z-card .extension .list-buttons .hover-view .icon, .z-card .extension .list-buttons .normal-view .icon {
+    color: #2a2b3f;
+    font-size: 16px;
+}
+.w-zingmp3 .icon {
+    cursor: pointer;
+}
+.icon {
+    line-height: 66%;
+}
+.icon, .z-ic-svg {
+    display: inline-block;
+}
+* {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+user agent stylesheet
+i {
+    font-style: italic;
+}
+a, button {
+    cursor: pointer;
+}
+a, body {
+    color: #32323d;
+}
+.w-zingmp3 .list-song li {
+    line-height: 0;
+    padding: 5px 10px;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+.old-price{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-left: 5px;
+    color: #222;
+}
